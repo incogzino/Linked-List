@@ -1,0 +1,57 @@
+.card {
+  border: 1px solid #faf9f9;
+  border-radius: 4px;
+  padding: 16px;
+  margin: 8px;
+  background-image: linear-gradient(180deg, #d41f1f, #3228b7);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 0 0 calc(30% - 8px); /* This sets each card to tak up one-third of the container width with spacing */
+  margin: 8px; /* Add spacing between cards */
+}
+
+.card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 12px rgb(254, 252, 252); 
+}
+
+
+.player-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* This distributes the cards evenly in a row */
+  margin: 0 -8px; 
+}
+
+.searchPlayers input {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin-left: 650px;
+  font-size: 30px;
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  color: orange;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
