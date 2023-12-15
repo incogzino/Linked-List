@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\React\nba-stats\nba-project\test\App.test.tsx">
+  </file>
+  <file path="C:\React\nba-stats\nba-project\test\link.test.js">
+    <testCase name="changes the class when hovered" duration="22"/>
+  </file>
+</testExecutions>
