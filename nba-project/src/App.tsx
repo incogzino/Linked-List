@@ -46,7 +46,7 @@ function App(): JSX.Element {
         <center>
         <div className="SearchBarSection">
           <h2 className="SectionTitle" style= {{color: "white"}}>Search for NBA Players</h2>
-          <img src={image} />
+          <img src={image} alt='NBA Poster'/>
           <p className="SectionDescription" style={{color: "white"}}>
             Explore the NBA player database and find your favorite players!
           </p>
